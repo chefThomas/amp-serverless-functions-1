@@ -1,0 +1,10 @@
+{
+	"auth": {},
+	"function": {
+		"serverlessfunc19151ebc0PostConfirmation": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda"
+		}
+	}
+}

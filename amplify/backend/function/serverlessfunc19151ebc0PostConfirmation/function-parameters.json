@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "serverlessfunc19151ebc0",
+  "functionName": "serverlessfunc19151ebc0PostConfirmation",
+  "resourceName": "serverlessfunc19151ebc0PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/home/newdevrising/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/utils/../triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "roleName": "serverlessfunc19151ebc0PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "Admin"
+}
