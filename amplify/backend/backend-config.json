@@ -1,7 +1,28 @@
 {
-	"auth": {},
+	"auth": {
+		"serverlessfunc19bb533d5": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "serverlessfunc19bb533d5PostConfirmation",
+					"triggerProvider": "Cognito",
+					"attributes": [
+						"Arn",
+						"Name"
+					]
+				}
+			]
+		}
+	},
 	"function": {
 		"serverlessfunc19151ebc0PostConfirmation": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda"
+		},
+		"serverlessfunc19bb533d5PostConfirmation": {
 			"build": true,
 			"providerPlugin": "awscloudformation",
 			"service": "Lambda"

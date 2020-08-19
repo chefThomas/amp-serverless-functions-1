@@ -15,7 +15,13 @@
             "function": {
                 "serverlessfunc19151ebc0PostConfirmation": {
                     "GROUP": "Admin"
+                },
+                "serverlessfunc19bb533d5PostConfirmation": {
+                    "GROUP": "Admin"
                 }
+            },
+            "auth": {
+                "serverlessfunc19bb533d5": {}
             }
         }
     }

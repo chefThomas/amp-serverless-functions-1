@@ -61,12 +61,12 @@
 				"FunctionName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"serverlessfunc19151ebc0PostConfirmation",
+						"serverlessfunc19bb533d5PostConfirmation",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"serverlessfunc19151ebc0PostConfirmation",
+									"serverlessfunc19bb533d5PostConfirmation",
 									"-",
 									{
 										"Ref": "env"
@@ -102,7 +102,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-serverlessfunc1-dev-133716-deployment",
-					"S3Key": "amplify-builds/serverlessfunc19151ebc0PostConfirmation-4c753759586570315551-build.zip"
+					"S3Key": "amplify-builds/serverlessfunc19bb533d5PostConfirmation-4c2b576e6274656b696c-build.zip"
 				}
 			}
 		},
@@ -112,12 +112,12 @@
 				"RoleName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"serverlessfunc19151ebc0PostConfirmation",
+						"serverlessfunc19bb533d5PostConfirmation",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"serverlessfunc19151ebc0PostConfirmation",
+									"serverlessfunc19bb533d5PostConfirmation",
 									"-",
 									{
 										"Ref": "env"
